@@ -1,20 +1,22 @@
+// .eslintrc.js
 module.exports = {
   root: true,
   env: {
     node: true
   },
-  'extends': [
+  extends: [
     'plugin:vue/vue3-essential',
     'eslint:recommended',
     '@vue/typescript/recommended',
-    '@vue/prettier',
-    '@vue/prettier/@typescript-eslint'
+    '@vue/prettier', // Adicione esta linha para integração com o Prettier
+    'prettier' // Esta linha garante que as regras do Prettier sejam as últimas a serem aplicadas
   ],
   parserOptions: {
     ecmaVersion: 2020
   },
   rules: {
-    'no-console': process.env.NODE_ENV === 'production' ? 'warn' : 'off',
-    'no-debugger': process.env.NODE_ENV === 'production' ? 'warn' : 'off'
+    // Aqui você pode adicionar regras personalizadas do ESLint
+    'vue/multi-word-component-names': 'off', // Desabilita a regra de nomes multi-palavra
+    'vue/no-reserved-component-names': 'off' // Desabilita a regra de nomes reservados
   }
-}
+};
