@@ -2,15 +2,15 @@
   <div class="services">
     <Service
       title="Front-End"
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae velit saepe cumque placeat blanditiis corporis unde, voluptates maiores obcaecati ducimus reiciendis soluta nam itaque, ratione ipsum in veniam quibusdam eveniet."
+      description="Desenvolvimento de interfaces modernas, responsivas e acessíveis, utilizando as melhores práticas e tecnologias do mercado para proporcionar a melhor experiência ao usuário."
     />
     <Service
       title="Back-End"
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae velit saepe cumque placeat blanditiis corporis unde, voluptates maiores obcaecati ducimus reiciendis soluta nam itaque, ratione ipsum in veniam quibusdam eveniet."
+      description="Criação de APIs robustas, escaláveis e seguras, integração com bancos de dados e implementação de regras de negócio para garantir o funcionamento eficiente das aplicações."
     />
     <Service
       title="DevOps"
-      description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Vitae velit saepe cumque placeat blanditiis corporis unde, voluptates maiores obcaecati ducimus reiciendis soluta nam itaque, ratione ipsum in veniam quibusdam eveniet."
+      description="Automatização de processos, integração e entrega contínua, monitoramento e infraestrutura como código para garantir agilidade, qualidade e confiabilidade no ciclo de vida do software."
     />
   </div>
 </template>
