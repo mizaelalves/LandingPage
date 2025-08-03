@@ -1,6 +1,6 @@
 <template>
   <div class="credits">
-    <h4>Developed by Mizael with Cataline</h4>
+    <h4>Desenvolvido por <a href="https://mizaeldev.com" target="_blank">MizaelDev</a></h4>
   </div>
 </template>
 
@@ -18,5 +18,13 @@ export default defineComponent({})
   position: relative;
   justify-items: center;
   align-items: center;
+  margin-top: 2rem; 
+  margin-bottom: 1rem;
+}
+
+a {
+  color: #935e92d8;
+  text-decoration: underline;
+  font-weight: 600;
 }
 </style>
